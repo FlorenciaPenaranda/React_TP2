@@ -39,19 +39,19 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
 
 ## 🗂️ Estructura del proyecto
 
-my-ecommerce-app/
-├── src/
-│   ├── app/
-│   │   └── my-ecommerce-app.jsx    # Componente raíz de la aplicación
-│   ├── components/
-│   │   └── ProductCard.jsx     # Componente que muestra la tarjeta de cada producto
-│   ├── services/
-│   │   └── productsData.json   # Archivo JSON que contiene la información de los productos
-│   ├── main.jsx    # Componente de entrada de la aplicación
-│   ├── App.jsx     # Componente principal que organiza la aplicación
-│   └── index.js    # Punto de entrada de la aplicación
-├── tailwind.config.js  # Configuración de Tailwind CSS
-└── package.json    # Dependencias y configuraciones del proyecto
+my-ecommerce-app/  
+├── src/  
+│   ├── app/  
+│   │   └── my-ecommerce-app.jsx # Componente raíz de la aplicación  
+│   ├── components/  
+│   │   └── ProductCard.jsx # Componente que muestra la tarjeta de cada producto  
+│   ├── services/  
+│   │   └── productsData.json # Archivo JSON que contiene la información de los productos  
+│   ├── main.jsx # Componente de entrada de la aplicación  
+│   ├── App.jsx # Componente principal que organiza la aplicación  
+│   └── index.js # Punto de entrada de la aplicación  
+├── tailwind.config.js # Configuración de Tailwind CSS  
+└── package.json # Dependencias y configuraciones del proyecto
 
 **my-ecommerce-app.jsx 📱:** Componente raíz de la aplicación.
 
