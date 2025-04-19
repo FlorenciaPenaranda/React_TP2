@@ -1,5 +1,27 @@
 import { useState } from "react";
 
+/**
+ * Componente que muestra la tarjeta de cada producto con información detallada
+ * e interactividad.
+ *
+ * - Permite ver nombre, imagen, precio original, precio final, y porcentaje de oferta.
+ * - Calcula y muestra el stock disponible.
+ * - Muestra un botón de compra que se desactiva cuando no hay stock.
+ * - Al hacer una compra, disminuye el stock y muestra un mensaje de agradecimiento.
+ *
+ * @param {{
+*   producto: {
+*     nombre: string,
+*     imagen: string,
+*     precioReal: number,
+*     precioFinal: number,
+*     porcentajeOferta: number,
+*     cantidadDisponible: number
+*   }
+* }} props - Objeto con la información del producto.
+*
+* @returns {JSX.Element} La tarjeta visual del producto.
+*/
 export default function ProductCard({ producto }) {
   const {
     nombre,

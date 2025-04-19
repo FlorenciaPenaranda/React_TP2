@@ -1,5 +1,12 @@
 import ProducrtCard from "../components/productCard"
 import productsData from "../services/productsData.json";
+
+/**
+ * Componente que renderiza una lista de productos en una grilla. *
+ * Muestra un catálogo de productos utilizando datos desde un archivo JSON.
+ *
+ * @returns {JSX.Element}
+ */
 export default function EcommerceApp() {
     return (
         <div className="min-h-screen bg-gray-100 p-6">
