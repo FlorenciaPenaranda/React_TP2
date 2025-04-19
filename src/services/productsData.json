@@ -1,0 +1,11 @@
+{ "products": [
+    {
+      "nombre": "Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport",
+      "imagen": "https://www.apple.com/au/watch/images/overview/select/product_u2__ebztafh9rvau_large_2x.png",
+      "precioReal": 249.00,
+      "precioFinal": 199.99,
+      "porcentajeOferta": 20,
+      "cantidadDisponible": 3
+    }
+  ]
+}
